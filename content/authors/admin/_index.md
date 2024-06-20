@@ -45,22 +45,22 @@ interests:
   - NLP
   
 education:
-  - area: Ph.D. Candidate in Economics
+  - area: Ph.D. Candidate in Economics, 2019-present
     institution: ETH Zurich
     date_start: 2019
     date_end: ''
 
-  - area: Visiting Fellow
+  - area: Visiting Fellow, Spring 2023
     institution: Harvard Kennedy School of Government
     date_start: 2023
     date_end: ''
     
-  - area: M.Sc. in Economic and Social Sciences
+  - area: M.Sc. in Economic and Social Sciences, 2016-2019
     institution: Bocconi University
     date_start: 2016
     date_end: 2019
 
-  - area: B.A. in Economics and Social Sciences
+  - area: B.A. in Economics and Social Sciences, 2013-2016
     institution: Bocconi University
     date_start: 2013
     date_end: 2016

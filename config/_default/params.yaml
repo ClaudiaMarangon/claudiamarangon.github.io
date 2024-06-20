@@ -35,12 +35,13 @@ header:
     fixed_to_top: true
     show_search: false
     show_theme_chooser: false
+    highlight_active_link: true
     logo:
       text: "Claudia Marangon"
 
 # Site footer
 footer:
-  block: rose
+  block: minimal
   copyright:
     notice: '© {2024} Claudia Marangon. This work is licensed under {license}'
     license:

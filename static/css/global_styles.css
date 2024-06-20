@@ -1,0 +1,18 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar .navbar-brand{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-nav .nav-link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300 ;
+    font-style: normal;
+}
