@@ -66,7 +66,7 @@ education:
     date_end: 2016
 ---
 
- Welcome to my website! I am a PhD Candidate at the <a href="https://lawecondata.ethz.ch/"> Group for Law, Economics and Data Science at ETH Zurich </a>. 
+ Welcome to my website! I am a PhD Candidate at the <a href="https://lawecondata.ethz.ch/"> Group for Law, Economics and Data Science</a> and the <a href="https://pp.ethz.ch/"> Public Policy Group</a> at ETH Zurich, and an associated researcher at the <a href="https://ai.ethz.ch/">ETH AI Center</a>. 
 
  My research lies at the intersection of Media Economics and Economics of Crime, with a focus on gender and racial identity. In particular, I leverage techniques in machine learning and natural language processing to shed light on the effect of identity among professionals, like journalists or judges.
 
