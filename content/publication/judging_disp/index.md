@@ -1,6 +1,6 @@
 ---
 title: "Judging Disparities: Recidivism Risk, Image Motives, and In-Group Bias on Wisconsin Criminal Courts"
-url: papers/AM_judgingdisparities.pdf
+# url: papers/AM_judgingdisparities.pdf
 
 authors:
 - "Elliott Ash"
@@ -30,7 +30,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-# url_pdf: papers/AM_judgingdisparities.pdf
+url_pdf: papers/AM_judgingdisparities.pdf
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'
