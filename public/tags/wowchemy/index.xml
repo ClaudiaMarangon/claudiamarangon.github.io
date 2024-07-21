@@ -6,12 +6,6 @@
       <atom:link href="http://localhost:1313/tags/wowchemy/index.xml" rel="self" type="application/rss+xml" />
     <description>Wowchemy</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:1313/media/icon_huf80f704013c48e548e7a5f5e7f3edf8d_12321_512x512_fill_lanczos_center_3.png</url>
-      <title>Wowchemy</title>
-      <link>http://localhost:1313/tags/wowchemy/</link>
-    </image>
-    
     <item>
       <title>Pandas</title>
       <link>http://localhost:1313/post/pandas/</link>
