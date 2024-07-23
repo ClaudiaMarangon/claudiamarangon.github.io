@@ -1,7 +1,7 @@
 ---
 
 title: "WCLD: Curated Large Dataset of Criminal Cases from Wisconsin Circuit Courts"
-
+# url: 
 #
 
 # Authors
@@ -24,7 +24,7 @@ author_notes:
 
 date: '2023-01-01T00:00:00Z'
 doi: ''
-backlinks: false
+backlinks: true
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-01-01T00:00:00Z'
@@ -32,7 +32,7 @@ publishDate: '2023-01-01T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["2"]
+publication_types: ["conference-paper"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Proceedings of the 37th Conference on Neural Information Processing Systems (NEURIPS)*"
