@@ -22,18 +22,18 @@ sections:
       css_class: light
       background:
         color: white
-  - block: collection
-    id: research
-    content:
-      title: Research
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-      columns: '2'
+  # - block: collection
+  #   id: research
+  #   content:
+  #     title: Research
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
+  #     columns: '2'
   # - block: collection
   #   id: teaching
   #   content:
