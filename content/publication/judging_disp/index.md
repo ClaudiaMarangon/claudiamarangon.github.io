@@ -33,7 +33,7 @@ featured: true
 url_pdf: "AM_judgingdisparities.pdf"
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
-# url_poster: '#'
+url_poster: 'posters/causal_policy_narratives_poster.pdf'
 # url_project: ''
 # url_slides: ''
 # url_source: '#'
