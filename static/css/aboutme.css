@@ -8,10 +8,11 @@
     /* Custom avatar size on homepage */
 
 .avatar {
-  width: 300px ;
-  height: 300px ;
-  max-width: 500px ;
-  max-height: 500px ;
+  width: 270px ;
+  height: 270px ;
+  margin: 0 auto;
+  max-width: 270px ;
+  max-height: 270px ;
   border-radius: 50%; /* Keeps the image round */
   object-fit: cover;
   object-position: center;
@@ -68,8 +69,8 @@
 
 .avatar-wrapper {
   position: relative;
-  width: 300px; /* Match image size in about.avatar widget */
-  height: 300px;
+  width: 270px; /* Match image size in about.avatar widget */
+  height: 270px;
   margin-left: auto;
   margin-right: auto;
 }

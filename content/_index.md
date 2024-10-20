@@ -32,8 +32,10 @@ sections:
   #         - publication
   #       exclude_featured: false
   #   design:
-  #     view: citation
-  #     columns: '2'
+  #     view: list
+  #     columns: '1'
+  #     background:
+  #       color: rgb(242, 240, 255)
   # - block: collection
   #   id: teaching
   #   content:

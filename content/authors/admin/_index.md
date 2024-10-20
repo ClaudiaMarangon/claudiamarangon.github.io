@@ -37,6 +37,8 @@ profiles:
   #   url: https://twitter.com/GetResearchDev
   - icon: github-icon
     url: https://github.com/ClaudiaMarangon
+  - icon: linkedin-icon
+    url: https://www.linkedin.com/in/claudia-marangon-a67574312/
 
 interests:
   - Political Economy

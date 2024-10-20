@@ -448,6 +448,7 @@
       "page-bg",
       "podcast",
       "profile",
+      "publications",
       "section-resume-awards",
       "section-resume-biography-3",
       "section-resume-experience",
@@ -464,7 +465,9 @@
       "teaching",
       "test-students",
       "top",
-      "video"
+      "video",
+      "work-in-progress",
+      "working-papers"
     ]
   }
 }
