@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Claudia Marangon</title>
-    <link>https://claudiamarangon.github.io/</link>
-      <atom:link href="https://claudiamarangon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Claudia Marangon</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://claudiamarangon.github.io/media/icon_hu_20368aaeaeec1e0c.png</url>
+      <url>http://localhost:1313/media/icon_hu_20368aaeaeec1e0c.png</url>
       <title>Claudia Marangon</title>
-      <link>https://claudiamarangon.github.io/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>Judging Disparities: Recidivism Risk, Image Motives, and In-Group Bias on Wisconsin Criminal Courts</title>
-      <link>https://claudiamarangon.github.io/publication/judging_disp/</link>
+      <link>http://localhost:1313/publication/judging_disp/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://claudiamarangon.github.io/publication/judging_disp/</guid>
+      <guid>http://localhost:1313/publication/judging_disp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>https://claudiamarangon.github.io/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://claudiamarangon.github.io/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>https://claudiamarangon.github.io/teaching/js/</link>
+      <link>http://localhost:1313/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://claudiamarangon.github.io/teaching/js/</guid>
+      <guid>http://localhost:1313/teaching/js/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -77,7 +77,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://claudiamarangon.github.io/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -154,9 +154,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>https://claudiamarangon.github.io/teaching/python/</link>
+      <link>http://localhost:1313/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://claudiamarangon.github.io/teaching/python/</guid>
+      <guid>http://localhost:1313/teaching/python/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -201,7 +201,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://claudiamarangon.github.io/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -278,9 +278,9 @@ data.head()
     
     <item>
       <title></title>
-      <link>https://claudiamarangon.github.io/contacts/</link>
+      <link>http://localhost:1313/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://claudiamarangon.github.io/contacts/</guid>
+      <guid>http://localhost:1313/contacts/</guid>
       <description></description>
     </item>
     

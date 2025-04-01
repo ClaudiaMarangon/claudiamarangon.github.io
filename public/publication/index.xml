@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research | Claudia Marangon</title>
-    <link>https://claudiamarangon.github.io/publication/</link>
-      <atom:link href="https://claudiamarangon.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication/</link>
+      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Research</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Judging Disparities: Recidivism Risk, Image Motives, and In-Group Bias on Wisconsin Criminal Courts</title>
-      <link>https://claudiamarangon.github.io/publication/judging_disp/</link>
+      <link>http://localhost:1313/publication/judging_disp/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://claudiamarangon.github.io/publication/judging_disp/</guid>
+      <guid>http://localhost:1313/publication/judging_disp/</guid>
       <description></description>
     </item>
     
