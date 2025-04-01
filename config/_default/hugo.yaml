@@ -6,7 +6,7 @@
 # Website name
 title: Claudia Marangon
 # Website URL
-baseURL: 'http://localhost:1313/'
+baseURL: 'https://claudiamarangon.github.io/'
 
 ############################
 ## LANGUAGE
