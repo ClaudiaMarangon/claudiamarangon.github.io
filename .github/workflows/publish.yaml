@@ -59,9 +59,9 @@ jobs:
       run: find ./public -type l
     - name: Upload artifact
       uses: actions/upload-artifact@v4
-      with:
-        name: github-pages  # Explicitly name the artifact
-        url: ${{ steps.deployment.outputs.page_url }}
+      # with:
+      #   name: github-pages  # Explicitly name the artifact
+      #   path: ./public
 
   # Deploy website to GitHub Pages hosting
   deploy:
