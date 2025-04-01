@@ -61,7 +61,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: github-pages  # Explicitly name the artifact
-        path: ./public
+        url: ${{ steps.deployment.outputs.page_url }}
 
   # Deploy website to GitHub Pages hosting
   deploy:
