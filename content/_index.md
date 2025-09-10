@@ -22,6 +22,19 @@ sections:
       css_class: light
       background:
         color: white
+  # - block: markdown
+  #   id: contact
+  #   content:
+  #     title: "Contact"
+  #     text: |
+  #       <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+  #         <label>Name<br><input type="text" name="name" required></label><br><br>
+  #         <label>Email<br><input type="email" name="_replyto" required></label><br><br>
+  #         <label>Message<br><textarea name="message" rows="6" required></textarea></label><br><br>
+  #         <button type="submit">Send</button>
+  #       </form>
+
+
   # - block: collection
   #   id: research
   #   content:
