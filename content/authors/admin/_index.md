@@ -20,19 +20,19 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Candidate
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Center for Law and Economics ETH Zurich
-    url: https://lawecondata.ethz.ch/
+  - name: Department of Government Harvard University
+    # url: https://lawecondata.ethz.ch/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: mail-icon
-    url: 'mailto:cmarangon@ethz.ch'
-    label: cmarangon [at] ethz.ch
+    url: 'mailto:cmarangon@fas.harvard.edu'
+    label: cmarangon [at] fas.harvard.edu
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
   - icon: github-icon
@@ -47,7 +47,7 @@ interests:
   - NLP
   
 education:
-  - area: Ph.D. Candidate in Economics, 2019-present
+  - area: Ph.D. Candidate in Economics, 2019-2025
     institution: ETH Zurich
     date_start: 2019
     date_end: ''
@@ -68,7 +68,11 @@ education:
     date_end: 2016
 ---
 
- Welcome to my website! I am a PhD Candidate at the <a href="https://lawecondata.ethz.ch/"> Group for Law, Economics and Data Science</a> and the <a href="https://pp.ethz.ch/"> Public Policy Group</a> at ETH Zurich, and an associated researcher at the <a href="https://ai.ethz.ch/">ETH AI Center</a>. 
+ Welcome to my website! I am a Postdoctoral researcher at the Department of Government at Harvard University. I am Research Affiliate at the <a href="https://lawecondata.ethz.ch/"> Group for Law, Economics and Data Science</a> and the <a href="https://pp.ethz.ch/"> Public Policy Group</a> at ETH Zurich.
 
- My research lies at the intersection of Media Economics and Economics of Crime, with a focus on gender and racial identity. In particular, I leverage techniques in machine learning and natural language processing to shed light on the effect of identity among professionals, like journalists or judges.
+ I obtained my Ph.D. in Economics at <a href="https://lawecondata.ethz.ch/">ETH Zurich</a> in May 2025 and was Visiting Fellow at the Harvard Kennedy School of Government in 2023. 
+
+ My research lies at the intersection of Media Economics and Economics of Crime, with a focus on the role of gender and racial identity. In particular, I leverage techniques in machine learning and natural language processing to shed light on the effect of identity among professionals, like journalists or judges.
+
+ I also co-organize the <a href="https://econ-ds-seminar.github.io/econ-datascience-seminar/#home">Online Seminar in Economics + Data Science</a>. You can <a href="https://sympa.ethz.ch/sympa/subscribe/econ.data.sci.online.seminar?previous_action=info">join our mailing list</a> to be up to date with our events. 
 
