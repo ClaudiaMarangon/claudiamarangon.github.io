@@ -13,8 +13,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: ''
+    org_name: 'Claudia Marangon'
+    description: 'Researcher in Political Economy. Publications, working papers, teaching, and CV."'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -43,12 +43,12 @@ header:
 footer:
   block: minimal
   copyright:
-    notice: '© {2024} Claudia Marangon. This work is licensed under {license}'
+    notice: '© {2025} Claudia Marangon. All rights reserved.'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
+      # allow_derivatives: false
+      # share_alike: true
+      # allow_commercial: false
 
 # Localization
 locale:
