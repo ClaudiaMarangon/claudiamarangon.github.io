@@ -24,7 +24,7 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Department of Government Harvard University
+  - name: Harvard University
     # url: https://lawecondata.ethz.ch/
 
 # Social network links

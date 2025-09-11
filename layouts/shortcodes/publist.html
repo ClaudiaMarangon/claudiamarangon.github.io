@@ -1,0 +1,62 @@
+{{- $folder   := .Get "folder" -}}
+{{- $self     := .Get "self"   | default "" -}}
+{{- $showYear := .Get "showYear" | default "true" -}}
+{{- $section  := site.GetPage (printf "/%s" $folder) -}}
+
+{{- if not $section -}}
+<p>No items in “{{ $folder }}”.</p>
+{{- else -}}
+<div class="list-none p-0 m-0">
+  {{- range $p := $section.Pages.ByDate.Reverse -}}
+    {{- $year := $p.Date.Format "2006" -}}
+
+    {{/* choose target link: PDF/DOI/Conference/link → else item page */}}
+    {{- $href := "" -}}
+    {{- with $p.Params.links -}}
+      {{- range . -}}
+        {{- $n := lower .name -}}
+        {{- if or (eq $n "pdf") (eq $n "doi") (eq $n "conference") (eq $n "link") -}}
+          {{- $href = .url -}}
+          {{- break -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if and (eq $href "") $p.Params.doi -}}
+      {{- $href = printf "https://doi.org/%s" $p.Params.doi -}}
+    {{- end -}}
+    {{- if eq $href "" -}}
+      {{- $href = $p.RelPermalink -}}
+    {{- end -}}
+
+    {{/* coauthors excluding self/admin */}}
+    {{- $co := slice -}}
+    {{- with $p.Params.authors -}}
+      {{- range . -}}
+        {{- $a := . -}}
+        {{- if and (ne (lower $a) (lower $self)) (ne (lower $a) "admin") -}}
+          {{- $co = $co | append $a -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+    <div class="mb-4">
+      <div>
+        <strong><a href="{{ $href }}" target="_blank" rel="noopener">{{ $p.Title }}</a></strong>.
+        {{- with $p.Params.publication }} <em>{{ . }}</em>.{{ end }}
+        {{- if and (eq $showYear "true") $year }} {{ $year }}{{ end }}
+      </div>
+
+      {{- if gt (len $co) 0 -}}
+        <div class="text-sm text-gray-700 dark:text-gray-300 mt-0.5">
+          with{{ range $i, $name := $co }}
+            {{- if gt $i 0 -}}
+              {{- if eq $i (sub (len $co) 1) -}}, and{{ else }},{{ end -}}
+            {{- end -}}
+            {{ printf " %s" $name }}
+          {{- end }}
+        </div>
+      {{- end }}
+    </div>
+  {{- end -}}
+</div>
+{{- end -}}

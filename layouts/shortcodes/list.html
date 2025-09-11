@@ -1,0 +1,14 @@
+{{- $folder := .Get "folder" -}}
+{{- $section := site.GetPage (printf "/%s" $folder) -}}
+{{- if $section -}}
+<ul>
+  {{- range $section.Pages.ByDate.Reverse -}}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- with .Params.publication }} — {{ . }}{{ end -}}
+    </li>
+  {{- end -}}
+</ul>
+{{- else -}}
+<p>No items found in “{{ $folder }}”.</p>
+{{- end -}}

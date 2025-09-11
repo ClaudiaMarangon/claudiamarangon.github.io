@@ -1,0 +1,63 @@
+{{- $folder := .Get "folder" | default "wip" -}}
+{{- $self   := .Get "self"   | default "" -}}
+{{- $section := site.GetPage (printf "/%s" $folder) -}}
+
+{{- if not $section -}}
+<p>No items in “{{ $folder }}”.</p>
+{{- else -}}
+<div class="list-none p-0 m-0">
+
+  {{- /* Ordering: use .Params.order if any item has it; else fallback to date desc */ -}}
+  {{- $pages := $section.Pages -}}
+  {{- $withOrder := where $pages ".Params.order" "ne" nil -}}
+  {{- if gt (len $withOrder) 0 -}}
+    {{- $pages = $pages.ByParam "order" -}}
+  {{- else -}}
+    {{- $pages = $pages.ByDate.Reverse -}}
+  {{- end -}}
+
+  {{- range $p := $pages -}}
+    {{- /* coauthors excluding self/admin */ -}}
+    {{- $co := slice -}}
+    {{- with $p.Params.authors -}}
+      {{- range . -}}
+        {{- $a := . -}}
+        {{- if and (ne (lower $a) (lower $self)) (ne (lower $a) "admin") -}}
+          {{- $co = $co | append $a -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+    <div class="mb-4">
+      <div>
+        {{ $p.Title }}.
+        {{- with $p.Params.publication }} <em>{{ . }}</em>.{{ end }}
+      </div>
+
+      {{- if gt (len $co) 0 -}}
+        <div class="text-sm text-gray-700 dark:text-gray-300 mt-0.5">
+          with{{ range $i, $name := $co }}
+            {{- if gt $i 0 -}}
+              {{- if eq $i (sub (len $co) 1) -}}, and{{ else }},{{ end -}}
+            {{- end -}}
+            {{ printf " %s" $name }}
+          {{- end }}
+        </div>
+      {{- end }}
+
+      {{- if or $p.Params.abstract $p.Summary -}}
+        <details class="mt-1">
+          <summary class="text-sm font-normal cursor-pointer">Abstract</summary>
+          <div class="mt-2 text-sm leading-relaxed">
+            {{- if $p.Params.abstract -}}
+              {{ $p.Params.abstract | markdownify }}
+            {{- else -}}
+              {{ $p.Summary | markdownify }}
+            {{- end -}}
+          </div>
+        </details>
+      {{- end -}}
+    </div>
+  {{- end -}}
+</div>
+{{- end -}}

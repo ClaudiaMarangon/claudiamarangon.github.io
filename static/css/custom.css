@@ -1,0 +1,39 @@
+@import "aboutme.css";
+
+/* @import "rose.css"; */
+
+@import "global_styles.css";
+
+/* === Research section styling === */
+
+/* Make the main block title ("Research") bigger */
+section#research .section-heading h1,
+section#research .section-heading h2,
+section#research header .section-title {
+  font-size: 2.4rem !important; /* adjust size */
+  font-weight: 700 !important;  /* keep bold for main title */
+  margin-bottom: 1rem;
+}
+
+/* Subsection headings (Publications, Working Papers, WIP) */
+section#research .prose h3 {
+  font-weight: 500 !important;   /* unbold but not thin */
+  font-size: 1.5rem !important;  /* same size as before */
+  margin-top: 1.2rem;
+}
+
+details[open] summary { opacity: 0.85; }
+
+/* Abstract dropdown link with arrow intact */
+#research details summary {
+  color: #6d84a3 !important;   /* match icon color */
+  font-weight: normal !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Slight opacity change when open */
+#research details[open] summary {
+  opacity: 0.9;
+}
+

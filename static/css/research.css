@@ -1,0 +1,12 @@
+/* Bigger main block title (the block’s own heading, not the markdown h2s) */
+section#research .section-heading h1,
+section#research .section-heading h2,
+section#research header .section-title {
+  font-size: 2.25rem !important; /* tweak as needed */
+}
+
+/* Unbold markdown subsection headings inside the block's content */
+section#research .prose h2 {
+  font-weight: 500 !important;   /* normal-ish weight */
+  /* leave font-size unchanged */
+}
