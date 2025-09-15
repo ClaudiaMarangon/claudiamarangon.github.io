@@ -1,11 +1,6 @@
-
-
-/* @import "rose.css"; */
-
+/* === Research section styling === */
 @import "global_styles.css";
 @import "aboutme2.css";
-
-/* === Research section styling === */
 
 /* Make the main block title ("Research") bigger */
 section#research .section-heading h1,

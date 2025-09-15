@@ -1,0 +1,103 @@
+/* Profile container */
+.resume-biography #profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+}
+
+/* Avatar image */
+.resume-biography .avatar {
+  width: 400px !important;
+  height: 400px !important;
+  aspect-ratio: 1 / 1 !important;
+  margin: 0 auto;
+  max-width: 400px !important;
+  max-height: 400px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Social icons list */
+.resume-biography .network-icon {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Avatar wrapper */
+.resume-biography .avatar-wrapper {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume-biography img.avatar[width],
+.resume-biography img.avatar[height] {
+  width: 400px !important;
+  height: 400px !important;
+}
+
+.portrait-title .font-bold {
+  font-weight: 300;
+  color: #475569;
+}
+
+.portrait-title .font-semibold {
+  font-weight: 300;
+  color: #6d84a3;
+}
+
+.section-subheading {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #384353;
+}
+
+.list-disc {
+  font-weight: 400;
+  color: #475569;
+}
+.flex{
+  color: #475569;
+}
+
+.flex .description .course{
+  font-weight: 400;
+  color: #475569;
+}
+
+.flex .description .text-sm{
+  font-weight: 300;
+  color: #6d84a3;
+}
+
+.portrait-title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.avatar-emoji {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fff;
+  color: #000; /* override parent alpha */
+  box-shadow: 0 10px 20px rgb(0 0 0 / 4%), 0 2px 6px rgb(0 0 0 / 4%), 0 0 1px rgb(0 0 0 / 4%);
+}
+
+.dark .avatar-emoji {
+  background-color: #000;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 4%), 0 2px 6px rgb(0 0 0 / 4%), 0 0 1px rgb(255 255 255 / 96%);
+}

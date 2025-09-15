@@ -9,7 +9,6 @@ appearance:
   color: indigo
   custom_css: ["css/custom.css"]
 
-
 # SEO
 marketing:
   seo:
