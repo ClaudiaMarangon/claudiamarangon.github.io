@@ -32,6 +32,16 @@ sections:
 
         ### Work in Progress
         {{< wiplist folder="wip" self="Claudia Marangon" >}}
+  - block: collection
+    id: teaching
+    content:
+      title: "Teaching"
+      text: |
+        {{< teachlist folder="teaching" >}}
+    # design:
+    #   view: teachlist
+    #   columns: "1"
+
 
 
 

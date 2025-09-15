@@ -2,85 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:45563/wip/</loc>
+    <loc>http://localhost:37257/teaching/data-science-public-policy/</loc>
+    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:37257/teaching/</loc>
+    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:37257/wip/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/working-papers/</loc>
+    <loc>http://localhost:37257/working-papers/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/publication_types/3/</loc>
+    <loc>http://localhost:37257/publication_types/3/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/wip/gender_judge/</loc>
+    <loc>http://localhost:37257/wip/gender_judge/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/wip/identity_journalism/</loc>
+    <loc>http://localhost:37257/wip/identity_journalism/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/working-papers/judging_disp/</loc>
+    <loc>http://localhost:37257/working-papers/judging_disp/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/publication_types/</loc>
+    <loc>http://localhost:37257/publication_types/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/wip/visual_justice/</loc>
+    <loc>http://localhost:37257/wip/visual_justice/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/tags/javascript/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:37257/teaching/text-data-economics/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/teaching/js/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:45563/teaching/python/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:45563/tags/python/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:45563/tags/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:45563/teaching/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:45563/publication_types/conference-paper/</loc>
+    <loc>http://localhost:37257/publication_types/conference-paper/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/publications/</loc>
+    <loc>http://localhost:37257/publications/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/publications/wcld/</loc>
+    <loc>http://localhost:37257/publications/wcld/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/</loc>
+    <loc>http://localhost:37257/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/research/</loc>
+    <loc>http://localhost:37257/teaching/data-science-decision-making/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/home/</loc>
+    <loc>http://localhost:37257/teaching/nlp-law-political-economy/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:45563/event/</loc>
+    <loc>http://localhost:37257/research/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:37257/home/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:37257/event/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:37257/tags/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

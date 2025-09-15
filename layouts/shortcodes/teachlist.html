@@ -1,0 +1,26 @@
+{{- $folder := .Get "folder" | default "teaching" -}}
+{{- $section := site.GetPage (printf "/%s" $folder) -}}
+{{- if not $section -}}<p>No items in “{{ $folder }}”.</p>{{- else -}}
+<div class="list-none p-0 m-0">
+  {{- range $p := $section.Pages.ByDate.Reverse -}}
+    <div class="mb-4">
+      <div>
+        <span class="font-semibold">{{ $p.Title }}</span>
+        {{ with $p.Params.institution }} — {{ . }}{{ end }}
+        {{ with $p.Params.period }} ({{ . }}){{ end }}
+      </div>
+      {{ with $p.Params.role }}
+        <div class="text-sm text-gray-700 dark:text-gray-300">Role: {{ . }}</div>
+      {{ end }}
+      {{ with $p.Params.summary }}
+        <div class="text-sm mt-1">{{ . }}</div>
+      {{ end }}
+      {{ with $p.Params.link }}
+        <div class="text-sm mt-1">
+          <a class="underline" href="{{ . }}" target="_blank" rel="noopener">Course materials on GitHub</a>
+        </div>
+      {{ end }}
+    </div>
+  {{- end -}}
+</div>
+{{- end -}}

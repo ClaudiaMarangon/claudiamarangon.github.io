@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WCLD: Curated Large Dataset of Criminal Cases from Wisconsin Circuit Courts | Claudia Marangon</title>
-    <link>http://localhost:45563/publications/wcld/</link>
-      <atom:link href="http://localhost:45563/publications/wcld/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:37257/publications/wcld/</link>
+      <atom:link href="http://localhost:37257/publications/wcld/index.xml" rel="self" type="application/rss+xml" />
     <description>WCLD: Curated Large Dataset of Criminal Cases from Wisconsin Circuit Courts</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
   </channel>
