@@ -41,7 +41,7 @@ sections:
 
       background:
         color: "#f5f7ff"
-  - block: collection
+  - block: markdown
     id: teaching
     content:
       title: "Teaching"

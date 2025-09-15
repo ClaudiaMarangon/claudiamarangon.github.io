@@ -81,5 +81,8 @@
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/teaching-main/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
