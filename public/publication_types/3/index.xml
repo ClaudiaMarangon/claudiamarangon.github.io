@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 | Claudia Marangon</title>
-    <link>http://localhost:46535/publication_types/3/</link>
-      <atom:link href="http://localhost:46535/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:45563/publication_types/3/</link>
+      <atom:link href="http://localhost:45563/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Gender Differences in Judging</title>
-      <link>http://localhost:46535/wip/gender_judge/</link>
+      <link>http://localhost:45563/wip/gender_judge/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46535/wip/gender_judge/</guid>
+      <guid>http://localhost:45563/wip/gender_judge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Identity in Journalism: Evidence from News Reporting of Violence Against Women</title>
-      <link>http://localhost:46535/wip/identity_journalism/</link>
+      <link>http://localhost:45563/wip/identity_journalism/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46535/wip/identity_journalism/</guid>
+      <guid>http://localhost:45563/wip/identity_journalism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Judging Disparities: Recidivism Risk, Image Motives, and In-Group Bias on Wisconsin Criminal Courts</title>
-      <link>http://localhost:46535/working-papers/judging_disp/</link>
+      <link>http://localhost:45563/working-papers/judging_disp/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46535/working-papers/judging_disp/</guid>
+      <guid>http://localhost:45563/working-papers/judging_disp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visual Justice: The Effect of Media Mugshots on Attitudes and Judicial Outcomes</title>
-      <link>http://localhost:46535/wip/visual_justice/</link>
+      <link>http://localhost:45563/wip/visual_justice/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46535/wip/visual_justice/</guid>
+      <guid>http://localhost:45563/wip/visual_justice/</guid>
       <description></description>
     </item>
     

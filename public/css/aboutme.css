@@ -8,8 +8,9 @@
     /* Custom avatar size on homepage */
 
 .avatar {
-  width: 270px ;
-  height: 270px ;
+  width: 270px !important;
+  height: 270px !important;
+  aspect-ratio: 1 / 1 !important;
   margin: 0 auto;
   max-width: 270px ;
   max-height: 270px ;

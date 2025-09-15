@@ -63,3 +63,5 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  avatar:
+    size: 540x540

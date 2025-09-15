@@ -9,6 +9,11 @@ name_pronunciation: ''
 first_name: Claudia
 last_name: Marangon
 
+avatar:
+  image: avatar.JPEG
+  shape: circle
+  resize: False
+
 # Status emoji
 # status: ''
 #   icon: ''
