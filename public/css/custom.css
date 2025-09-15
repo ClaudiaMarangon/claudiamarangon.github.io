@@ -37,3 +37,9 @@ details[open] summary { opacity: 0.85; }
   opacity: 0.9;
 }
 
+/* Tighten ALL section headers like:
+   <div class="mb-6 text-3xl font-bold ...">Title</div> */
+section .mb-6 { margin-bottom: -.2rem !important; }
+
+/* If some sections use 4xl, cover that too
+section .mb-6.text-4xl.font-bold { margin-bottom: 0.5rem !important; } */

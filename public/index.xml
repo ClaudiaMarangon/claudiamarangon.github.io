@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Claudia Marangon</title>
-    <link>http://localhost:37257/</link>
-      <atom:link href="http://localhost:37257/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Claudia Marangon</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:37257/media/icon_hu15659213496042729767.png</url>
+      <url>http://localhost:1313/media/icon_hu15659213496042729767.png</url>
       <title>Claudia Marangon</title>
-      <link>http://localhost:37257/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
   </channel>
