@@ -13,7 +13,7 @@ sections:
       text: ""
       button:
         text: CV
-        url: uploads/cv_claudiamarangon_2025.pdf
+        url: uploads/cv_claudiamarangon_2026.pdf
     design:
       css_class: light
       spacing:
