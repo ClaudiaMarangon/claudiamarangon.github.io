@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo version *)",
+      "Bash(hugo server *)",
+      "Bash(hugo --gc --minify)",
+      "Bash(gh run *)",
+      "Bash(gh api *)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:claudiamarangon.github.io)",
+      "Bash(hugo --minify)",
+      "Bash(gh auth *)",
+      "Bash(curl -s \"https://api.github.com/repos/claudiamarangon/claudiamarangon.github.io/actions/runs?per_page=5\")",
+      "Bash(python3 -c \"import sys,json; runs=json.load\\(sys.stdin\\)['workflow_runs']; [print\\(r['name'], r['status'], r['conclusion'], r['created_at'], r['html_url']\\) for r in runs]\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://claudiamarangon.github.io/)",
+      "Bash(curl -s https://claudiamarangon.github.io/)",
+      "Bash(curl -s \"https://claudiamarangon.github.io/\")",
+      "Bash(curl -s -L \"https://claudiamarangon.github.io/uploads/cv_claudiamarangon_2026.pdf\" -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s -L \"https://claudiamarangon.github.io/uploads/cv_claudiamarangon_2025.pdf\" -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s \"https://claudiamarangon.github.io/uploads/\" -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -v \"https://claudiamarangon.github.io/uploads/cv_claudiamarangon_2026.pdf\")",
+      "Bash(curl -s \"https://claudiamarangon.github.io/uploads/cv_claudiamarangon_2026.pdf\")",
+      "Bash(xxd)",
+      "Bash(curl -s \"https://api.github.com/repos/claudiamarangon/claudiamarangon.github.io/actions/runs?per_page=3\")",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://claudiamarangon.github.io/wip/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://claudiamarangon.github.io/home/\")",
+      "Bash(curl -s \"https://api.github.com/repos/claudiamarangon/claudiamarangon.github.io/pages\")",
+      "Bash(python3 -c \"import sys, json; data=json.load\\(sys.stdin\\); print\\(json.dumps\\(data, indent=2\\)\\)\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git commit *)"
+    ]
+  }
+}
