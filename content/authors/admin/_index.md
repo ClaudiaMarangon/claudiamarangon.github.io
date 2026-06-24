@@ -45,37 +45,41 @@ profiles:
   - icon: linkedin-icon
     url: https://www.linkedin.com/in/claudia-marangon-a67574312/
 
-interests:
-  - Political Economy
-  - Media Economics
-  - Economics of Crime
-  - Natural Language Processing
+# interests:
+#   - Political Economy
+#   - Media Economics
+#   - Economics of Crime
+#   - Natural Language Processing
   
-education:
-  - area: Ph.D. Candidate in Economics, 2019-2025
-    institution: ETH Zurich
-    date_start: 2019
-    date_end: ''
+# education:
+#   - area: Ph.D. Candidate in Economics, 2019-2025
+#     institution: ETH Zurich
+#     date_start: 2019
+#     date_end: ''
 
-  - area: Visiting Fellow, Spring 2023
-    institution: Harvard Kennedy School of Government
-    date_start: 2023
-    date_end: ''
+#   - area: Visiting Fellow, Spring 2023
+#     institution: Harvard Kennedy School of Government
+#     date_start: 2023
+#     date_end: ''
     
-  - area: M.Sc. in Economic and Social Sciences, 2016-2019
-    institution: Bocconi University
-    date_start: 2016
-    date_end: 2019
+#   - area: M.Sc. in Economic and Social Sciences, 2016-2019
+#     institution: Bocconi University
+#     date_start: 2016
+#     date_end: 2019
 
-  - area: B.A. in Economics and Social Sciences, 2013-2016
-    institution: Bocconi University
-    date_start: 2013
-    date_end: 2016
+#   - area: B.A. in Economics and Social Sciences, 2013-2016
+#     institution: Bocconi University
+#     date_start: 2013
+#     date_end: 2016
 ---
 
- Welcome to my website! I am a Postdoctoral Fellow at Harvard University, funded by the Swiss National Science Foundation. I am also a Research Affiliate at the <a href="https://lawecondata.ethz.ch/"> Group for Law, Economics and Data Science</a> and the <a href="https://pp.ethz.ch/"> Public Policy Group</a> at ETH Zurich. I obtained my Ph.D. in Economics at <a href="https://lawecondata.ethz.ch/">ETH Zurich</a> in May 2025 and was Visiting Fellow at the Harvard Kennedy School of Government in Spring 2023. 
+ Welcome to my website! I am a <b>Postdoctoral Fellow at Harvard University</b>, funded by the Swiss National Science Foundation. 
+ 
+ I am also a Research Affiliate at the <a href="https://lawecondata.ethz.ch/"> Group for Law, Economics and Data Science</a> and the <a href="https://pp.ethz.ch/"> Public Policy Group</a> at ETH Zurich. I obtained my Ph.D. in Economics at <a href="https://lawecondata.ethz.ch/">ETH Zurich</a> in May 2025 and was Visiting Fellow at the Harvard Kennedy School of Government in Spring 2023. 
 
- My research lies at the intersection of Media Economics and Economics of Crime, with a focus on the role of gender and racial identity. In particular, I leverage techniques in machine learning and natural language processing to shed light on the effect of identity among professionals, like journalists or judges.
+ I am a Political Economist using methods from machine learning and natural language processing to investigate questions at the intersection of Media Economics and Economics of Crime. <!--In particular, I leverage methods in machine learning and natural language processing to shed light on the effect of identity among professionals, like journalists or judges. -->
 
  I also co-organize the <a href="https://econ-ds-seminar.github.io/econ-datascience-seminar/#home">Online Seminar in Economics + Data Science</a>. You can <a href="https://sympa.ethz.ch/sympa/subscribe/econ.data.sci.online.seminar?previous_action=info">join our mailing list</a> to be up to date with our events and contact me directly if you are interested in presenting! 
+
+ <b><i>I will be on the Academic Job Market 2026/2027</i></b>
 

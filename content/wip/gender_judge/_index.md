@@ -1,11 +1,9 @@
 ---
-title: "Gender Differences in Judging"
+title: "What's in a Name? The Effect of Judge-Defendant Name Similarity in Sentencing"
 # url: papers/AM_judgingdisparities.pdf
 
 authors:
-- "Clémentine Abed Meraim"
 - "Elliott Ash"
-- "Talia Gillis"
 - admin
 date: "2024-01-01T00:00:00Z"
 doi: ""
