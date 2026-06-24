@@ -45,7 +45,7 @@
         {{- with $p.Params.publication }} <em>{{ . }}</em>.{{ end }}
         {{- if and (eq $showYear "true") $year }} {{ $year }}{{ end }}
       </div>
-      {{- with $p.Params.subtitle }}<div class="text-sm mt-0.5"><em>{{ . }}</em></div>{{ end }}
+      {{- with $p.Params.subtitle }}<div class="text-sm mt-0.5"><em><u>{{ . }}</u></em></div>{{ end }}
 
       {{- if gt (len $co) 0 -}}
         <div class="text-sm text-gray-700 dark:text-gray-300 mt-0.5">

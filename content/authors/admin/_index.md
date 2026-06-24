@@ -81,5 +81,5 @@ profiles:
 
  I also co-organize the <a href="https://econ-ds-seminar.github.io/econ-datascience-seminar/#home">Online Seminar in Economics + Data Science</a>. You can <a href="https://sympa.ethz.ch/sympa/subscribe/econ.data.sci.online.seminar?previous_action=info">join our mailing list</a> to be up to date with our events and contact me directly if you are interested in presenting! 
 
- <b><i>I will be on the Academic Job Market 2026/2027</i></b>
+ <b><i><u>I will be on the Academic Job Market 2026/2027</u></i></b>
 
