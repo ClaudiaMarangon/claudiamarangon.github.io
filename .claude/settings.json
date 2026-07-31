@@ -31,7 +31,10 @@
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
       "Bash(ssh -T git@github.com)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(hugo --minify --baseURL \"https://claudiamarangon.github.io/\")",
+      "Read(//home/claudia/.ssh/**)",
+      "Bash(git remote *)"
     ]
   }
 }
