@@ -46,6 +46,7 @@
         {{- if and (eq $showYear "true") $year }} {{ $year }}{{ end }}
       </div>
       {{- with $p.Params.subtitle }}<div class="text-sm mt-0.5"><em><u>{{ . }}</u></em></div>{{ end }}
+      {{- with $p.Params.award }}<div class="text-sm mt-0.5">{{ . | safeHTML }}</div>{{ end }}
 
       {{- if gt (len $co) 0 -}}
         <div class="text-sm text-gray-700 dark:text-gray-300 mt-0.5">
@@ -56,6 +57,12 @@
             {{ printf " %s" $name }}
           {{- end }}
         </div>
+      {{- end }}
+      {{- with $p.Params.abstract }}
+        <details class="text-sm mt-1">
+          <summary class="cursor-pointer text-gray-700 dark:text-gray-300 hover:underline">Abstract</summary>
+          <div class="mt-1 text-gray-800 dark:text-gray-200 text-justify">{{ . | markdownify }}</div>
+        </details>
       {{- end }}
     </div>
   {{- end -}}
