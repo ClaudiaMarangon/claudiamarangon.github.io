@@ -75,7 +75,7 @@ profiles:
 
  Welcome to my website! I am a <b>Postdoctoral Fellow at Harvard University</b>, funded by the Swiss National Science Foundation. 
  
- I am also a Research Affiliate at the <a href="https://lawecondata.ethz.ch/"> Group for Law, Economics and Data Science</a> and the <a href="https://pp.ethz.ch/"> Public Policy Group</a> at ETH Zurich. I obtained my Ph.D. in Economics at <a href="https://lawecondata.ethz.ch/">ETH Zurich</a> in May 2025 and was Visiting Fellow at the Harvard Kennedy School of Government in Spring 2023. 
+ I am also a Research Affiliate at the <a href="https://lawecondata.ethz.ch/"> Group for Law, Economics and Data Science</a> and the <a href="https://pp.ethz.ch/"> Public Policy Group</a> at ETH Zurich. I obtained my Ph.D. in Economics at <a href="https://lawecondata.ethz.ch/">ETH Zurich</a> in May 2025 and was a Visiting Fellow at the Harvard Kennedy School of Government in Spring 2023. 
 
  I am a Political Economist using methods from machine learning and natural language processing to investigate questions at the intersection of Media Economics and Economics of Crime. <!--In particular, I leverage methods in machine learning and natural language processing to shed light on the effect of identity among professionals, like journalists or judges. -->
 
