@@ -7,8 +7,8 @@
 
 /* Avatar image */
 .resume-biography .avatar {
-  width: 400px !important;
-  height: 400px !important;
+  width: min(400px, 80vw) !important;
+  height: min(400px, 80vw) !important;
   aspect-ratio: 1 / 1 !important;
   margin: 0 auto;
   max-width: 400px !important;
@@ -31,16 +31,20 @@
 /* Avatar wrapper */
 .resume-biography .avatar-wrapper {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: min(400px, 80vw);
+  height: min(400px, 80vw);
+  max-width: 400px;
+  max-height: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .resume-biography img.avatar[width],
 .resume-biography img.avatar[height] {
-  width: 400px !important;
-  height: 400px !important;
+  width: min(400px, 80vw) !important;
+  height: min(400px, 80vw) !important;
+  max-width: 400px !important;
+  max-height: 400px !important;
 }
 
 .portrait-title .font-bold {
