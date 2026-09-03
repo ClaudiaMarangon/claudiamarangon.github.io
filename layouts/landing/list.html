@@ -1,0 +1,94 @@
+{{/* Custom two-column landing layout (D'Amico-style with lilac palette) */}}
+{{ define "main" }}
+{{ $author := site.GetPage "/authors/admin" }}
+{{ $avatar := ($author.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $portrait := "" }}
+{{ if $avatar }}{{ $portrait = $avatar.Fill "440x560 Top" }}{{ end }}
+
+<div class="dm-container">
+  <div class="dm-columns">
+
+    <aside class="dm-left">
+      {{ if $portrait }}
+        <div class="dm-portrait-wrap">
+          <img class="dm-portrait" src="{{ $portrait.RelPermalink }}" alt="{{ $author.Title }}"
+               width="{{ $portrait.Width }}" height="{{ $portrait.Height }}" />
+        </div>
+      {{ end }}
+
+      <h1 class="dm-name">{{ $author.Title }}</h1>
+      {{ with $author.Params.role }}<h4 class="dm-role">{{ . }}</h4>{{ end }}
+      {{ range $author.Params.organizations }}
+        <div class="dm-affil">
+          {{ with .url }}<a href="{{.}}" target="_blank" rel="noopener">{{ end }}
+          {{ .name }}
+          {{ if .url }}</a>{{ end }}
+        </div>
+      {{ end }}
+
+      <ul class="dm-icons">
+        {{ range $author.Params.profiles }}
+          {{ $link := .url | default .link }}
+          {{ $scheme := (urls.Parse $link).Scheme }}
+          {{ $target := "" }}
+          {{ if in (slice "http" "https") $scheme }}
+            {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+          {{ end }}
+          <li>
+            <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}"
+              {{ with .label }} title="{{.}}"{{ end }}>
+              {{ partial "functions/get_icon" (dict "name" .icon "attributes" "style=\"height: 1.4rem;\"") }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+
+      <a href="{{ "uploads/cv_claudiamarangon_2026.pdf" | relURL }}" target="_blank" class="dm-cv-btn">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+          <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Z"/>
+        </svg>
+        <span>CV</span>
+      </a>
+    </aside>
+
+    <main class="dm-right">
+
+      <section id="bio" class="dm-section dm-section-bio">
+        <div class="dm-bio prose">{{ $author.Content }}</div>
+      </section>
+
+      <section id="job-market-paper" class="dm-section">
+        <h3 class="dm-section-title">Job Market Paper</h3>
+        <hr class="dm-section-hr" />
+        {{ partial "dm-publist" (dict "folder" "job-market-paper" "self" "Claudia Marangon" "showYear" false) }}
+      </section>
+
+      <section id="working-papers" class="dm-section">
+        <h3 class="dm-section-title">Working Papers</h3>
+        <hr class="dm-section-hr" />
+        {{ partial "dm-publist" (dict "folder" "working-papers" "self" "Claudia Marangon" "showYear" false) }}
+      </section>
+
+      <section id="work-in-progress" class="dm-section">
+        <h3 class="dm-section-title">Work in Progress</h3>
+        <hr class="dm-section-hr" />
+        {{ partial "dm-wiplist" (dict "folder" "wip" "self" "Claudia Marangon") }}
+      </section>
+
+      <section id="conference-publications" class="dm-section">
+        <h3 class="dm-section-title">Conference Publications</h3>
+        <hr class="dm-section-hr" />
+        {{ partial "dm-publist" (dict "folder" "conf-publications" "self" "Claudia Marangon" "showYear" true) }}
+      </section>
+
+      <section id="teaching" class="dm-section">
+        <h3 class="dm-section-title">Teaching</h3>
+        <hr class="dm-section-hr" />
+        {{ partial "dm-teachlist" (dict "folder" "teaching") }}
+      </section>
+
+    </main>
+  </div>
+</div>
+{{ end }}

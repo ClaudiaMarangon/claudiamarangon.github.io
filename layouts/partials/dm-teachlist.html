@@ -1,0 +1,16 @@
+{{- $folder := .folder | default "teaching" -}}
+{{- $section := site.GetPage (printf "/%s" $folder) -}}
+{{- if not $section -}}<p class="dm-empty">No items in "{{ $folder }}".</p>{{- else -}}
+<div class="dm-paperlist">
+  {{- range $p := $section.Pages.ByDate.Reverse -}}
+    <div class="dm-paper">
+      <div class="dm-paper-title">
+        {{ $p.Title }}{{ with $p.Params.institution }}, <span class="dm-institution">{{ . }}</span>{{ end }}{{ with $p.Params.period }} <span class="dm-year">({{ . }})</span>{{ end }}
+      </div>
+      {{- with $p.Params.role }}<div class="dm-coauth">{{ . }}</div>{{ end }}
+      {{- with $p.Params.summary }}<div class="dm-summary">{{ . }}</div>{{ end }}
+      {{- with $p.Params.link }}<div class="dm-link"><a href="{{ . }}" target="_blank" rel="noopener">Course materials</a></div>{{ end }}
+    </div>
+  {{- end -}}
+</div>
+{{- end -}}

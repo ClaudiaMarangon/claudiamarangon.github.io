@@ -1,0 +1,51 @@
+{{- $folder := .folder | default "wip" -}}
+{{- $self   := .self   | default "" -}}
+{{- $section := site.GetPage (printf "/%s" $folder) -}}
+
+{{- if not $section -}}
+<p class="dm-empty">No items in "{{ $folder }}".</p>
+{{- else -}}
+<div class="dm-paperlist">
+  {{- $pages := $section.Pages -}}
+  {{- $withOrder := where $pages ".Params.order" "ne" nil -}}
+  {{- if gt (len $withOrder) 0 -}}
+    {{- $pages = $pages.ByParam "order" -}}
+  {{- else -}}
+    {{- $pages = $pages.ByDate.Reverse -}}
+  {{- end -}}
+
+  {{- range $p := $pages -}}
+    {{- $co := slice -}}
+    {{- with $p.Params.authors -}}
+      {{- range . -}}
+        {{- $a := . -}}
+        {{- if and (ne (lower $a) (lower $self)) (ne (lower $a) "admin") -}}
+          {{- $co = $co | append $a -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+    <div class="dm-paper">
+      <div class="dm-paper-title">{{ $p.Title }}</div>
+
+      {{- if gt (len $co) 0 -}}
+        <div class="dm-coauth">
+          with{{ range $i, $name := $co }}
+            {{- if gt $i 0 -}}
+              {{- if eq $i (sub (len $co) 1) -}}, and{{ else }},{{ end -}}
+            {{- end -}}
+            {{ printf " %s" $name }}
+          {{- end }}
+        </div>
+      {{- end }}
+
+      {{- with $p.Params.abstract }}
+        <details class="dm-accordion">
+          <summary>Abstract</summary>
+          <div class="dm-abstract-body">{{ . | markdownify }}</div>
+        </details>
+      {{- end }}
+    </div>
+  {{- end -}}
+</div>
+{{- end -}}
