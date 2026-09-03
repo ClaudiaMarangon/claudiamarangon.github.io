@@ -6,7 +6,6 @@ authors:
 - admin
 date: "2025-01-01T00:00:00Z"
 doi: ""
-subtitle: "Job Market Paper"
 award: 'Winner of the <a href="https://www.unicreditfoundation.org/en/news-and-media/16th-best-paper-award-on-gender-economics-the-winners" target="_blank" rel="noopener">UniCredit Foundation Best Paper Award in Gender Economics</a>'
 
 # Schedule page publish date (NOT publication's date).
@@ -20,7 +19,6 @@ publication_types: ["3"]
 # Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
-order: 1
 
 links:
 - name: PDF

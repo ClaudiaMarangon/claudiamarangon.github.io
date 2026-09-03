@@ -1,41 +1,72 @@
-/* === Research section styling === */
+/* === Section styling shared across all paper / teaching sections === */
 @import "global_styles.css";
 @import "aboutme2.css";
 
-/* Make the main block title ("Research") bigger */
+/* Selector matching every top-level section on the landing page */
+section#job-market-paper,
+section#working-papers,
+section#work-in-progress,
+section#conference-publications,
+section#teaching,
+section#research { }
+
+/* Main section title (e.g. "Job Market Paper", "Working Papers", ...) */
+section#job-market-paper .section-heading h1,
+section#job-market-paper .section-heading h2,
+section#job-market-paper header .section-title,
+section#working-papers .section-heading h1,
+section#working-papers .section-heading h2,
+section#working-papers header .section-title,
+section#work-in-progress .section-heading h1,
+section#work-in-progress .section-heading h2,
+section#work-in-progress header .section-title,
+section#conference-publications .section-heading h1,
+section#conference-publications .section-heading h2,
+section#conference-publications header .section-title,
+section#teaching .section-heading h1,
+section#teaching .section-heading h2,
+section#teaching header .section-title,
 section#research .section-heading h1,
 section#research .section-heading h2,
 section#research header .section-title {
-  font-size: 2.4rem !important; /* adjust size */
-  font-weight: 700 !important;  /* keep bold for main title */
+  font-size: 2.4rem !important;
+  font-weight: 700 !important;
   margin-bottom: 1rem;
 }
 
-/* Subsection headings (Publications, Working Papers, WIP) */
-section#research .prose h3 {
-  font-weight: 500 !important;   /* unbold but not thin */
-  font-size: 1.5rem !important;  /* same size as before */
+/* Optional legacy subsection headings inside a section */
+section .prose h3 {
+  font-weight: 500 !important;
+  font-size: 1.5rem !important;
   margin-top: 1.2rem;
 }
 
+/* Abstract dropdown link — same look everywhere */
 details[open] summary { opacity: 0.85; }
 
-/* Abstract dropdown link with arrow intact */
-#research details summary {
-  color: #6d84a3 !important;   /* match icon color */
+section#job-market-paper details summary,
+section#working-papers details summary,
+section#work-in-progress details summary,
+section#conference-publications details summary,
+section#research details summary {
+  color: #6d84a3 !important;
   font-weight: normal !important;
   cursor: pointer;
   text-decoration: underline;
 }
 
-/* Slight opacity change when open */
-#research details[open] summary {
+section#job-market-paper details[open] summary,
+section#working-papers details[open] summary,
+section#work-in-progress details[open] summary,
+section#conference-publications details[open] summary,
+section#research details[open] summary {
   opacity: 0.9;
 }
 
-/* Tighten ALL section headers like:
-   <div class="mb-6 text-3xl font-bold ...">Title</div> */
+/* Tighten section headers rendered by the markdown block wrapper */
 section .mb-6 { margin-bottom: -.2rem !important; }
 
-/* If some sections use 4xl, cover that too
-section .mb-6.text-4xl.font-bold { margin-bottom: 0.5rem !important; } */
+/* CV button sitting below the icons in the bio block */
+.cv-button-portrait {
+  align-self: center;
+}

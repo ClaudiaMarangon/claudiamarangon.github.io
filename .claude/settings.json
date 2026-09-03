@@ -34,7 +34,11 @@
       "Bash(git commit *)",
       "Bash(hugo --minify --baseURL \"https://claudiamarangon.github.io/\")",
       "Read(//home/claudia/.ssh/**)",
-      "Bash(git remote *)"
+      "Bash(git remote *)",
+      "WebFetch(domain:leonardodamico.github.io)",
+      "Bash(curl -sL https://leonardodamico.github.io/ -o /tmp/damico.html)",
+      "Read(//tmp/**)",
+      "Bash(hugo --minify --gc --destination /tmp/hugo-build-test)"
     ]
   }
 }

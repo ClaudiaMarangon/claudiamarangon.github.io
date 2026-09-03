@@ -27,7 +27,7 @@ publication_short: ""
 # - name: PDF
 #   url: /uploads/AM_judgingdisparities.pdf
 
-abstract: ""
+abstract: "Coming soon."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
