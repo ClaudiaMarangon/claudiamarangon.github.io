@@ -27,7 +27,7 @@ publication_short: ""
 # - name: PDF
 #   url: /uploads/AM_judgingdisparities.pdf
 
-abstract: "Coming soon."
+abstract: "This paper studies the visual representation of crime in U.S. news and whether policies aimed at protecting the identity of arrested individuals affect crime reporting. We assemble 3.46 million crime articles published by 1,848 outlets between 2015 and 2024 and measure their images with a face-level pipeline that detects mugshots, infers race, and links the same individual across articles. Benchmarking against FBI arrest records, we show that Black arrestees are over-represented in mugshot coverage relative to their share of arrests, and the gap is concentrated in high-volume, low-severity offenses such as DUI and drug crimes, where publishing any given booking photograph is discretionary. We then exploit staggered state restrictions on mugshot disclosure in a difference-in-differences design. The bans reduce mugshot publication by about a third and compress the over-representation of Black arrestees where it was largest. Next, we investigate whether crime reporting also adjusts to the removal of mugshots. Using the same design, we show that outlets replace booking photographs with other images, cover fewer arrests and more investigations, and also write about crime differently. Finally, we provide preliminary evidence that reducing mugshot use affects crime perceptions by reducing the salience of crime."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
