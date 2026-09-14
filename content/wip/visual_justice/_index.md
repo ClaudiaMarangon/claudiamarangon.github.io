@@ -1,5 +1,5 @@
 ---
-title: "Visual Justice: The Effect of Media Mugshots on Attitudes and Judicial Outcomes"
+title: "Visual Justice: Racial Representation in Mugshot Coverage of U.S. Crime News"
 # url: papers/AM_judgingdisparities.pdf
 
 authors:
