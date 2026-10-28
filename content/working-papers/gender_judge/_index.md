@@ -1,5 +1,5 @@
 ---
-title: "What's in a Name? The Effect of Judge-Defendant Name Similarity in Sentencing"
+title: "What's in a Name? The Effect of Social Proximity in Sentencing Decisions"
 # url: papers/AM_judgingdisparities.pdf
 
 authors:
@@ -25,7 +25,7 @@ publication_short: ""
 # - name: PDF
 #   url: /uploads/AM_judgingdisparities.pdf
 
-abstract: "This paper investigates how social proximity between judges and defendants influences sentencing outcomes in Wisconsin criminal courts. Moving beyond race and gender, we use name similarity as a novel measure of shared social background. We construct FastText embeddings of defendants appearing in more than 1 million cases (2005–2021) using defendants from the same street as context, and compute cosine similarity between their name vectors and those of their assigned judges. Leveraging the random assignment of judges to cases within courts, we find that higher judge-defendant name similarity reduces the probability of incarceration and sentence length, suggesting that social background similarity plays a meaningful role in explaining heterogeneity in sentencing outcomes. To investigate whether these differences are driven by taste-based or statistical discrimination, we propose a model of judicial decision-making that incorporates taste-based preferences and information about the defendants' risk of re-offending. Assuming that the precision of information signals increases with both judicial experience and similarity to the defendant, the model predicts that judges will be more responsive to defendants' recidivism risk in these scenarios. We test this hypothesis using a machine learning-predicted measure of defendants' recidivism risk, and we show that more experienced judges and those judging defendants with higher name similarity respond more to recidivism risk signals."
+abstract: "Social divides extend beyond race and gender, but less visible dimensions of social background are rarely recorded in data. We study whether judges treat defendants differently when they are socially closer to them. We measure social proximity as the similarity between judges' and defendants' last names, using name embeddings trained on individuals grouped by the street where they live, which yields a continuous measure that varies among individuals with similar observable characteristics. Exploiting the quasi-random assignment of more than 1.2 million criminal cases to judges in Wisconsin, we find that judges are less likely to incarcerate socially closer defendants. Using a model of judicial decisions and a machine-learning prediction of recidivism risk, we find that judges assess the risk of socially closer defendants more accurately but also favor them at the average level of risk. Social leniency is driven by victimless crime, and the effect reverses for offenses involving a victim, who generally come from contexts similar to perpetrators, suggesting judges may also have preferences for protecting socially closer victims."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -66,3 +66,5 @@ featured: true
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
+*Draft coming soon!*
